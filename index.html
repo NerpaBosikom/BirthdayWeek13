@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Birthday</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__title">Дни до дня рождения</h1>
+      <label class="main__subtitle" for="start">Дата рождения:</label>
+      <!-- Поле для ввода даты (без значения по умолчанию) -->
+      <input
+        class="main__serch"
+        type="date"
+        id="start"
+        name="trip-start"
+        min="2025-01-01"
+        max="2025-12-31"
+      />
+      <button class="main__button" type="button">Посчитать</button>
+      <!-- Здесь будет появляться результат -->
+      <p class="main__text"></p>
+    </main>
+    <script src="./birthday.js"></script>
+  </body>
+</html>
