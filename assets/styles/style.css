@@ -21,15 +21,11 @@ body {
   margin-bottom: 10px;
 }
 
-.main__subtitle {
-  margin-bottom: 10px;
-}
-
 .main__serch {
   border: 2px solid #909B71;
   border-radius: 5px;
   margin-inline: 5px;
-  margin-bottom: 10px;
+  margin-block: 10px;
   padding-inline: 10px;
 }
 
