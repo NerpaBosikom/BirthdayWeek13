@@ -17,10 +17,19 @@ body {
   background-color: #F2D9C5;
 }
 
+.main__title {
+  margin-bottom: 10px;
+}
+
+.main__subtitle {
+  margin-bottom: 10px;
+}
+
 .main__serch {
   border: 2px solid #909B71;
   border-radius: 5px;
   margin-inline: 5px;
+  margin-bottom: 10px;
   padding-inline: 10px;
 }
 
